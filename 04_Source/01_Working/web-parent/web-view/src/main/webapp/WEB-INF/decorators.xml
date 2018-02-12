@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators">
+    <excludes>
+        <pattern>/index1.ftl</pattern>
+    </excludes>
+    <decorator name="master" page="master.ftl">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>
